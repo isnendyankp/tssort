@@ -3,3 +3,4 @@
 
 - installer project in terminal:
 1. S10-79:install create a config file: tsc --init.
+2. S10-79:Install tsc-w for continue tsc on terminal: tsc -w.
