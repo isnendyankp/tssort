@@ -8,9 +8,7 @@
 class Sorter {
   collection: number[];
 
-  constructor() {
-
-  }
+  constructor(collection: number[]) {}
 }
 
 // progres:
@@ -21,3 +19,4 @@ class Sorter {
 // - S10-82:Cr8 base class Sorter
 // - S10-82:Add property collection with type number of array
 // - S10-82:Define constructor base for input collection
+// - S10-82:Add parameter collection on constructor
