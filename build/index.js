@@ -12,3 +12,4 @@ class Sorter {
 // - S10-79:configure tsconfig rootDir & outDir
 // - S10-79:cr8 another function for make sure continue tsc -w run correctly
 // - S10-82:Cr8 base class Sorter
+// - S10-82:Add property collection with type number of array
