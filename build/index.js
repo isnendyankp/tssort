@@ -5,7 +5,9 @@
 // };
 // logSomething();
 class Sorter {
-    constructor(collection) { }
+    constructor(collection) {
+        this.collection = collection;
+    }
 }
 // progres:
 // - S10-79:cr8 index js by using terminal: tsc index.ts
@@ -16,3 +18,4 @@ class Sorter {
 // - S10-82:Add property collection with type number of array
 // - S10-82:Define constructor base for input collection
 // - S10-82:Add parameter collection on constructor
+// - S10-82:Add initialize the collection property

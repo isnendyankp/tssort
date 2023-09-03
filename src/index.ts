@@ -8,7 +8,9 @@
 class Sorter {
   collection: number[];
 
-  constructor(collection: number[]) {}
+  constructor(collection: number[]) {
+    this.collection = collection;
+  }
 }
 
 // progres:
@@ -20,3 +22,4 @@ class Sorter {
 // - S10-82:Add property collection with type number of array
 // - S10-82:Define constructor base for input collection
 // - S10-82:Add parameter collection on constructor
+// - S10-82:Add initialize the collection property
