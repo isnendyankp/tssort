@@ -7,6 +7,7 @@
 class Sorter {
     constructor(collection) {
         this.collection = collection;
+        this.collection = collection;
     }
 }
 const sorter = new Sorter([10, 3, -5, 0]);
@@ -21,3 +22,4 @@ const sorter = new Sorter([10, 3, -5, 0]);
 // - S10-82:Add parameter collection on constructor
 // - S10-82:Add initialize the collection property
 // - S10-82:cr8 instance sorter with initialize array
+// - S10-82:cr8 shorthand property constructor

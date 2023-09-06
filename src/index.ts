@@ -6,9 +6,7 @@
 // logSomething();
 
 class Sorter {
-  collection: number[];
-
-  constructor(collection: number[]) {
+    constructor(public collection: number[]) {
     this.collection = collection;
   }
 }
@@ -25,3 +23,4 @@ const sorter = new Sorter([10, 3, -5, 0]);
 // - S10-82:Add parameter collection on constructor
 // - S10-82:Add initialize the collection property
 // - S10-82:cr8 instance sorter with initialize array
+// - S10-82:cr8 shorthand property constructor
