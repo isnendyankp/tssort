@@ -13,6 +13,7 @@ class Sorter {
   }
 }
 
+const sorter = new Sorter([10, 3, -5, 0]);
 // progres:
 // - S10-79:cr8 index js by using terminal: tsc index.ts
 // - S10-79:Organize file 
@@ -23,3 +24,4 @@ class Sorter {
 // - S10-82:Define constructor base for input collection
 // - S10-82:Add parameter collection on constructor
 // - S10-82:Add initialize the collection property
+// - S10-82:cr8 instance sorter with initialize array
