@@ -7,6 +7,10 @@
 
 class Sorter {
     constructor(public collection: number[]) {}
+
+    sort() {
+
+    }
 }
 
 const sorter = new Sorter([10, 3, -5, 0]);
@@ -23,3 +27,4 @@ const sorter = new Sorter([10, 3, -5, 0]);
 // - S10-82:cr8 instance sorter with initialize array
 // - S10-82:cr8 shorthand property constructor
 // - S10-82:Delete assigment inside the constructor
+// - S10-82:cr8 sort method base
