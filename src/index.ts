@@ -13,6 +13,7 @@ class Sorter {
 
 const sorter = new Sorter([10, 3, -5, 0]);
 sorter.sort();
+console.log(sorter.collection);
 // progres:
 // - S10-79:cr8 index js by using terminal: tsc index.ts
 // - S10-79:Organize file 
@@ -29,3 +30,4 @@ sorter.sort();
 // - S10-82:cr8 sort method base
 // - S10-82:Add void for sort method (no return value on sort method)
 // - S10-82:Add call sorter.sort
+// - S10-82:checking log for sorter.collection
