@@ -11,6 +11,7 @@ class Sorter {
     sort() { }
 }
 const sorter = new Sorter([10, 3, -5, 0]);
+sorter.sort();
 // progres:
 // - S10-79:cr8 index js by using terminal: tsc index.ts
 // - S10-79:Organize file 
@@ -26,3 +27,4 @@ const sorter = new Sorter([10, 3, -5, 0]);
 // - S10-82:Delete assigment inside the constructor
 // - S10-82:cr8 sort method base
 // - S10-82:Add void for sort method (no return value on sort method)
+// - S10-82:Add call sorter.sort
