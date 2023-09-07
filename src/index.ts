@@ -6,11 +6,9 @@
 // logSomething();
 
 class Sorter {
-    constructor(public collection: number[]) {}
+  constructor(public collection: number[]) {}
 
-    sort() {
-
-    }
+  sort(): void {}
 }
 
 const sorter = new Sorter([10, 3, -5, 0]);
@@ -28,3 +26,4 @@ const sorter = new Sorter([10, 3, -5, 0]);
 // - S10-82:cr8 shorthand property constructor
 // - S10-82:Delete assigment inside the constructor
 // - S10-82:cr8 sort method base
+// - S10-82:Add void for sort method (no return value on sort method)
