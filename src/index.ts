@@ -15,6 +15,7 @@ class Sorter {
       for (let j = 0; j < length - i - 1; j++) {
         if (this.collection[j] > this.collection[j + 1]) {
           const leftHand = this.collection[j];
+          this.collection[j] = this.collection[j + 1];
         }
       }
     }
@@ -47,3 +48,4 @@ console.log(sorter.collection);
 // - S10-83:cr8 another for loops with cr8 variable j
 // - S10-83:Add logic if statement for logic index position
 // - S10-83:Add leftHand for logic swap
+// - S10-83:Add logic take the right hand side & throw it over to the left
