@@ -16,6 +16,7 @@ class Sorter {
         if (this.collection[j] > this.collection[j + 1]) {
           const leftHand = this.collection[j];
           this.collection[j] = this.collection[j + 1];
+          this.collection[j + 1] = leftHand;
         }
       }
     }
@@ -49,3 +50,4 @@ console.log(sorter.collection);
 // - S10-83:Add logic if statement for logic index position
 // - S10-83:Add leftHand for logic swap
 // - S10-83:Add logic take the right hand side & throw it over to the left
+// - S10-83:Add logic take the left hand side and throw it over to right 
