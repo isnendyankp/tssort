@@ -11,6 +11,10 @@ class Sorter {
   sort(): void {
     const { length } = this.collection;
 
+    for (let i = 0; i < length; i++) {
+
+    }
+
   }
 }
 
@@ -35,3 +39,4 @@ console.log(sorter.collection);
 // - S10-82:Add call sorter.sort
 // - S10-82:checking log for sorter.collection
 // - S10-83:Add length which will take the length of the "collection" array.
+// - S10-83:cr8 nested for loops with cr8 variable i (In this loop, there is a variable declaration "i" which will serve as an index to access each element in the "collection" array.)
