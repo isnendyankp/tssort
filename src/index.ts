@@ -8,7 +8,10 @@
 class Sorter {
   constructor(public collection: number[]) {}
 
-  sort(): void {}
+  sort(): void {
+    const { length } = this.collection;
+
+  }
 }
 
 const sorter = new Sorter([10, 3, -5, 0]);
@@ -31,3 +34,4 @@ console.log(sorter.collection);
 // - S10-82:Add void for sort method (no return value on sort method)
 // - S10-82:Add call sorter.sort
 // - S10-82:checking log for sorter.collection
+// - S10-83:Add length which will take the length of the "collection" array.
