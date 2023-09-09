@@ -12,6 +12,8 @@ class Sorter {
         const { length } = this.collection;
         for (let i = 0; i < length; i++) {
             for (let j = 0; j < length - i - 1; j++) {
+                if (this.collection[j] > this.collection[j + 1]) {
+                }
             }
         }
     }
@@ -39,3 +41,4 @@ console.log(sorter.collection);
 // - S10-83:Add length which will take the length of the "collection" array.
 // - S10-83:cr8 nested for loops with cr8 variable i (In this loop, there is a variable declaration "i" which will serve as an index to access each element in the "collection" array.)
 // - S10-83:cr8 another for loops with cr8 variable j
+// - S10-83:Add logic if statement for logic index position
