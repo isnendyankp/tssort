@@ -6,12 +6,16 @@ class Sorter {
 
     for (let i = 0; i < length; i++) {
       for (let j = 0; j < length - i - 1; j++) {
+        // All of this only works if collection is number[]
         // if collection is an array of numbers
-        if (this.collection[j] > this.collection[j + 1]) {
-          const leftHand = this.collection[j];
-          this.collection[j] = this.collection[j + 1];
-          this.collection[j + 1] = leftHand;
+        if () {
+          if (this.collection[j] > this.collection[j + 1]) {
+            const leftHand = this.collection[j];
+            this.collection[j] = this.collection[j + 1];
+            this.collection[j + 1] = leftHand;
+          }
         }
+        // only going to work if collection is a string
         // if collection is a string, do this logic instead: logic to compare & swap character in string
       }
     }
@@ -45,3 +49,5 @@ console.log(sorter.collection);
 // - S10-83:Add leftHand for logic swap
 // - S10-83:Add logic take the right hand side & throw it over to the left
 // - S10-83:Add logic take the left hand side and throw it over to right 
+// - S10-85:Add new type string for collection
+// - S10-85:wrapped if statement with another if statement
