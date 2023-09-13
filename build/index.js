@@ -9,7 +9,7 @@ class Sorter {
             for (let j = 0; j < length - i - 1; j++) {
                 // All of this only works if collection is number[]
                 // if collection is an array of numbers
-                if () {
+                if (this.collection instanceof Array) {
                     if (this.collection[j] > this.collection[j + 1]) {
                         const leftHand = this.collection[j];
                         this.collection[j] = this.collection[j + 1];
@@ -51,3 +51,4 @@ console.log(sorter.collection);
 // - S10-83:Add logic take the left hand side and throw it over to right 
 // - S10-85:Add new type string for collection
 // - S10-85:wrapped if statement with another if statement
+// - S10-86:Add type guard with instanceof Array
