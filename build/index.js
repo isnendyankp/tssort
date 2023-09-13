@@ -10,6 +10,7 @@ class Sorter {
                 // All of this only works if collection is number[]
                 // if collection is an array of numbers
                 if (this.collection instanceof Array) {
+                    // collection === number[]
                     if (this.collection[j] > this.collection[j + 1]) {
                         const leftHand = this.collection[j];
                         this.collection[j] = this.collection[j + 1];
@@ -18,6 +19,8 @@ class Sorter {
                 }
                 // only going to work if collection is a string
                 // if collection is a string, do this logic instead: logic to compare & swap character in string
+                if (typeof this.collection === 'string') {
+                }
             }
         }
     }
@@ -52,3 +55,4 @@ console.log(sorter.collection);
 // - S10-85:Add new type string for collection
 // - S10-85:wrapped if statement with another if statement
 // - S10-86:Add type guard with instanceof Array
+// - S10-86:Add if  type guard with type string
