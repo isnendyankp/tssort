@@ -1,5 +1,5 @@
 export class Sorter {
-  constructor(public collection: number[] | string) {}
+  constructor(public collection:) {}
 
   sort(): void {
     const { length } = this.collection;
@@ -26,5 +26,6 @@ export class Sorter {
 }
 
 
-// - S10-86:Cr8 Sorter.ts file & move all code sorter
-// - S10-86:export class sorter
+// - S10-88:Cr8 Sorter.ts file & move all code sorter
+// - S10-88:export class sorter
+// - S10-88:remove all type annotations
