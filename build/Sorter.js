@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Sorter = void 0;
 class Sorter {
     constructor(collection) {
         this.collection = collection;
@@ -25,4 +27,6 @@ class Sorter {
         }
     }
 }
+exports.Sorter = Sorter;
 // - S10-86:Cr8 Sorter.ts file & move all code sorter
+// - S10-86:export class sorter
