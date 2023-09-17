@@ -1,6 +1,4 @@
 export class NumbersCollection {
-    data: number[]
-
     constructor(public data: number[]) {}
 }
 
@@ -10,3 +8,4 @@ export class NumbersCollection {
 // - S10-89:Add argument  prop data with type number array @constructor
 // - S10-89:Take argument & asssign it too
 // - S10-89:modifier data & removing assignment 
+// - S10-89:fix w8 removing initialization
