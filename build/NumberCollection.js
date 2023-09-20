@@ -5,6 +5,8 @@ class NumbersCollection {
     constructor(data) {
         this.data = data;
     }
+    compare() {
+    }
 }
 exports.NumbersCollection = NumbersCollection;
 // - S10-89:Cr8 base class NumberCollection
@@ -14,3 +16,4 @@ exports.NumbersCollection = NumbersCollection;
 // - S10-89:Take argument & asssign it too
 // - S10-89:modifier data & removing assignment 
 // - S10-89:fix w8 removing initialization
+// - S10-89:Add define compare base function
