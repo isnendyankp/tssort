@@ -1,7 +1,7 @@
 export class NumbersCollection {
     constructor(public data: number[]) {}
 
-    compare(): boolean {
+    compare(leftIndex: number): boolean {
 
     }
 }
@@ -15,3 +15,4 @@ export class NumbersCollection {
 // - S10-89:fix w8 removing initialization
 // - S10-89:Add define compare base function
 // - S10-89:Add type return boolean
+// - S10-89:Add 1st argument leftIndex with type number @compare

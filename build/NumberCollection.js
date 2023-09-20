@@ -5,7 +5,7 @@ class NumbersCollection {
     constructor(data) {
         this.data = data;
     }
-    compare() {
+    compare(leftIndex) {
     }
 }
 exports.NumbersCollection = NumbersCollection;
@@ -18,3 +18,4 @@ exports.NumbersCollection = NumbersCollection;
 // - S10-89:fix w8 removing initialization
 // - S10-89:Add define compare base function
 // - S10-89:Add type return boolean
+// - S10-89:Add 1st argument leftIndex with type number @compare
