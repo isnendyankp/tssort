@@ -2,7 +2,7 @@ export class NumbersCollection {
   constructor(public data: number[]) {}
 
   compare(leftIndex: number, rightIndex: number): boolean {
-
+    return this.data[leftIndex] > this.data[rightIndex];
   }
 }
 
@@ -17,3 +17,4 @@ export class NumbersCollection {
 // - S10-89:Add type return boolean
 // - S10-89:Add 1st argument leftIndex with type number @compare
 // - S10-89:Add 2nd argument rightIndex with type number @compare
+// - S10-89:Add return conditional code @compare

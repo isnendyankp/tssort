@@ -6,6 +6,7 @@ class NumbersCollection {
         this.data = data;
     }
     compare(leftIndex, rightIndex) {
+        return this.data[leftIndex] > this.data[rightIndex];
     }
 }
 exports.NumbersCollection = NumbersCollection;
@@ -20,3 +21,4 @@ exports.NumbersCollection = NumbersCollection;
 // - S10-89:Add type return boolean
 // - S10-89:Add 1st argument leftIndex with type number @compare
 // - S10-89:Add 2nd argument rightIndex with type number @compare
+// - S10-89:Add return conditional code @compare
