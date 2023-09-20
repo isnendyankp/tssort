@@ -1,9 +1,9 @@
 export class NumbersCollection {
-    constructor(public data: number[]) {}
+  constructor(public data: number[]) {}
 
-    compare(leftIndex: number): boolean {
+  compare(leftIndex: number, rightIndex: number): boolean {
 
-    }
+  }
 }
 
 // - S10-89:Cr8 base class NumberCollection
@@ -16,3 +16,4 @@ export class NumbersCollection {
 // - S10-89:Add define compare base function
 // - S10-89:Add type return boolean
 // - S10-89:Add 1st argument leftIndex with type number @compare
+// - S10-89:Add 2nd argument rightIndex with type number @compare

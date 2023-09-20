@@ -5,7 +5,7 @@ class NumbersCollection {
     constructor(data) {
         this.data = data;
     }
-    compare(leftIndex) {
+    compare(leftIndex, rightIndex) {
     }
 }
 exports.NumbersCollection = NumbersCollection;
@@ -19,3 +19,4 @@ exports.NumbersCollection = NumbersCollection;
 // - S10-89:Add define compare base function
 // - S10-89:Add type return boolean
 // - S10-89:Add 1st argument leftIndex with type number @compare
+// - S10-89:Add 2nd argument rightIndex with type number @compare
