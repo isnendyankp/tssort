@@ -1,7 +1,7 @@
 export class NumbersCollection {
     constructor(public data: number[]) {}
 
-    compare() {
+    compare(): boolean {
 
     }
 }
@@ -14,3 +14,4 @@ export class NumbersCollection {
 // - S10-89:modifier data & removing assignment 
 // - S10-89:fix w8 removing initialization
 // - S10-89:Add define compare base function
+// - S10-89:Add type return boolean
