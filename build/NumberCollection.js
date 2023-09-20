@@ -8,6 +8,8 @@ class NumbersCollection {
     compare(leftIndex, rightIndex) {
         return this.data[leftIndex] > this.data[rightIndex];
     }
+    swap() {
+    }
 }
 exports.NumbersCollection = NumbersCollection;
 // - S10-89:Cr8 base class NumberCollection
@@ -22,3 +24,4 @@ exports.NumbersCollection = NumbersCollection;
 // - S10-89:Add 1st argument leftIndex with type number @compare
 // - S10-89:Add 2nd argument rightIndex with type number @compare
 // - S10-89:Add return conditional code @compare
+// - S10-89:Add define swap function base
