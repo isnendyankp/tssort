@@ -4,9 +4,7 @@ export class NumbersCollection {
   compare(leftIndex: number, rightIndex: number): boolean {
     return this.data[leftIndex] > this.data[rightIndex];
   }
-  swap(): void {
-
-  }
+  swap(leftIndex: number): void {}
 }
 
 // - S10-89:Cr8 base class NumberCollection
@@ -23,3 +21,4 @@ export class NumbersCollection {
 // - S10-89:Add return conditional code @compare
 // - S10-89:Add define swap function base
 // - S10-89:Add void for dont receive anything @return swap
+// - S10-89:Add param leftIndex with type @swap 
