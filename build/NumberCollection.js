@@ -9,6 +9,7 @@ class NumbersCollection {
         return this.data[leftIndex] > this.data[rightIndex];
     }
     swap(leftIndex, rightIndex) {
+        const leftHand = this.data[leftIndex];
     }
 }
 exports.NumbersCollection = NumbersCollection;
@@ -27,3 +28,5 @@ exports.NumbersCollection = NumbersCollection;
 // - S10-89:Add define swap function base
 // - S10-89:Add void for dont receive anything @return swap
 // - S10-89:Add param leftIndex with type @swap
+// - S10-89:Add param rightIndex with type @swap 
+// - S10-89:Add define lefHand @swap 
