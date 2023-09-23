@@ -6,6 +6,7 @@ export class NumbersCollection {
   }
   swap(leftIndex: number, rightIndex: number): void {
     const leftHand = this.data[leftIndex];
+    this.data[leftIndex] = this.data[rightIndex];
   }
 }
 
@@ -25,4 +26,5 @@ export class NumbersCollection {
 // - S10-89:Add void for dont receive anything @return swap
 // - S10-89:Add param leftIndex with type @swap
 // - S10-89:Add param rightIndex with type @swap 
-// - S10-89:Add define lefHand @swap 
+// - S10-89:Add define lefHand @swap
+// - S10-89:Add logic swap1 @swap (this.data[leftIndex] = this.data[rightIndex];)
