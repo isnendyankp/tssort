@@ -5,6 +5,8 @@ class NumbersCollection {
     constructor(data) {
         this.data = data;
     }
+    length() {
+    }
     compare(leftIndex, rightIndex) {
         return this.data[leftIndex] > this.data[rightIndex];
     }
@@ -34,3 +36,4 @@ exports.NumbersCollection = NumbersCollection;
 // - S10-89:Add define lefHand @swap
 // - S10-89:Add logic swap1 @swap (this.data[leftIndex] = this.data[rightIndex];)
 // - S10-89:Complete logic swap @swap (this.data[rightIndex] = leftHand;)
+// - S10-89:cr8 base length method @length
