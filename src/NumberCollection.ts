@@ -1,7 +1,7 @@
 export class NumbersCollection {
   constructor(public data: number[]) {}
 
-  length(): number {
+  get length(): number {
     return this.data.length
   }
 
@@ -14,6 +14,8 @@ export class NumbersCollection {
     this.data[rightIndex] = leftHand;
   }
 }
+
+
 
 // - S10-89:Cr8 base class NumberCollection
 // - S10-89:Add prop data with type array number
@@ -37,3 +39,4 @@ export class NumbersCollection {
 // - S10-89:cr8 base length method @length
 // - S10-89:Add type number @length method
 // - S10-89:Add return  @length method
+// - S10-89:Add keyword get @length method

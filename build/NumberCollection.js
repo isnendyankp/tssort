@@ -5,7 +5,7 @@ class NumbersCollection {
     constructor(data) {
         this.data = data;
     }
-    length() {
+    get length() {
         return this.data.length;
     }
     compare(leftIndex, rightIndex) {
@@ -40,3 +40,4 @@ exports.NumbersCollection = NumbersCollection;
 // - S10-89:cr8 base length method @length
 // - S10-89:Add type number @length method
 // - S10-89:Add return  @length method
+// - S10-89:Add keyword get @length method
