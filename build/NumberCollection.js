@@ -18,7 +18,7 @@ class NumbersCollection {
     }
 }
 exports.NumbersCollection = NumbersCollection;
-new NumbersCollection([1, 2, 3]);
+const collection = new NumbersCollection([1, 2, 3]);
 // - S10-89:Cr8 base class NumberCollection
 // - S10-89:Add prop data with type array number
 // - S10-89:cr8 base constructor @NumberCollection class
@@ -43,3 +43,4 @@ new NumbersCollection([1, 2, 3]);
 // - S10-89:Add return  @length method
 // - S10-89:Add keyword get @length method
 // - S10-89:Add new instance of number collection
+// - S10-89:Assign variable for new instance
