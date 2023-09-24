@@ -2,7 +2,7 @@ export class NumbersCollection {
   constructor(public data: number[]) {}
 
   length(): number {
-
+    return this.data.length
   }
 
   compare(leftIndex: number, rightIndex: number): boolean {
@@ -36,3 +36,4 @@ export class NumbersCollection {
 // - S10-89:Complete logic swap @swap (this.data[rightIndex] = leftHand;)
 // - S10-89:cr8 base length method @length
 // - S10-89:Add type number @length method
+// - S10-89:Add return  @length method
