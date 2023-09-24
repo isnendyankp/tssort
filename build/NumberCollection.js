@@ -37,3 +37,4 @@ exports.NumbersCollection = NumbersCollection;
 // - S10-89:Add logic swap1 @swap (this.data[leftIndex] = this.data[rightIndex];)
 // - S10-89:Complete logic swap @swap (this.data[rightIndex] = leftHand;)
 // - S10-89:cr8 base length method @length
+// - S10-89:Add type number @length method
