@@ -25,3 +25,4 @@ exports.Sorter = Sorter;
 // - S10-88:remove type guard on first loop logic & remove comment
 // - S10-88:remove type guard on second loop logic
 // - S10-89:import NumbersCollection
+// - S10-89:Pass in NumbersCollection @constructor
