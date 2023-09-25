@@ -9,7 +9,7 @@ class Sorter {
         const { length } = this.collection;
         for (let i = 0; i < length; i++) {
             for (let j = 0; j < length - i - 1; j++) {
-                if (this.collection[j] > this.collection[j + 1]) {
+                if (this.collection.compare()) {
                     const leftHand = this.collection[j];
                     this.collection[j] = this.collection[j + 1];
                     this.collection[j + 1] = leftHand;
@@ -26,3 +26,4 @@ exports.Sorter = Sorter;
 // - S10-88:remove type guard on second loop logic
 // - S10-89:import NumbersCollection
 // - S10-89:Pass in NumbersCollection @constructor
+// - S10-89:Add comparasion for this collection @if statement
