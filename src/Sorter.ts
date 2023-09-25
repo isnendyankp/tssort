@@ -1,3 +1,4 @@
+import { NumbersCollection } from './NumbersCollection';
 export class Sorter {
   constructor(public collection:) {}
 
@@ -23,3 +24,4 @@ export class Sorter {
 // - S10-88:remove all type annotations
 // - S10-88:remove type guard on first loop logic & remove comment
 // - S10-88:remove type guard on second loop logic
+// - S10-89:import NumbersCollection
