@@ -1,5 +1,7 @@
 "use strict";
-const sorter = new Sorter([10, 3, -5, 0]);
+Object.defineProperty(exports, "__esModule", { value: true });
+const Sorter_1 = require("./Sorter");
+const sorter = new Sorter_1.Sorter([10, 3, -5, 0]);
 sorter.sort();
 console.log(sorter.collection);
 // progres:
@@ -30,3 +32,4 @@ console.log(sorter.collection);
 // - S10-85:wrapped if statement with another if statement
 // - S10-86:Add type guard with instanceof Array
 // - S10-86:Add if  type guard with type string
+// - S10-89:Add import sort class
