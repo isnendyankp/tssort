@@ -33,3 +33,4 @@ console.log(sorter.collection);
 // - S10-86:Add type guard with instanceof Array
 // - S10-86:Add if  type guard with type string
 // - S10-89:Add import sort class
+// - s10-89:Add import number collection

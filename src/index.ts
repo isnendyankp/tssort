@@ -1,4 +1,5 @@
 import { Sorter } from './Sorter';
+import { NumbersCollection } from './NumbersCollection';
 
 const sorter = new Sorter([10, 3, -5, 0]);
 sorter.sort();
@@ -32,3 +33,4 @@ console.log(sorter.collection);
 // - S10-86:Add type guard with instanceof Array
 // - S10-86:Add if  type guard with type string
 // - S10-89:Add import sort class
+// - s10-89:Add import number collection
