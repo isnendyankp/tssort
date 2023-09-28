@@ -10,7 +10,7 @@ class Sorter {
         for (let i = 0; i < length; i++) {
             for (let j = 0; j < length - i - 1; j++) {
                 if (this.collection.compare(j, j + 1)) {
-                    this.collection.swap();
+                    this.collection.swap(j, j + 1);
                 }
             }
         }
@@ -27,3 +27,4 @@ exports.Sorter = Sorter;
 // - S10-89:Add comparasion for this collection @if statement
 // - S10-89:Add 2 elements for compare method (j, j+1)
 // - S10-89:Add swap method after compare method
+// - S10-89:Add 2 elements for swap method (j, j+1)
