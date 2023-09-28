@@ -2,7 +2,7 @@ import { Sorter } from './Sorter';
 import { NumbersCollection } from './NumbersCollection';
 
 const numbersCollection = new NumbersCollection([10, 3, -5, 0]);
-const sorter = new Sorter([10, 3, -5, 0]);
+const sorter = new Sorter(numbersCollection);
 sorter.sort();
 console.log(sorter.collection);
 // progres:
@@ -36,3 +36,4 @@ console.log(sorter.collection);
 // - S10-89:Add import sort class
 // - s10-89:Add import number collection
 // - S10-89:cr8 new instance of number collection
+// - S10-89:Assign variable for new instance
