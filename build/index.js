@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const Sorter_1 = require("./Sorter");
+const NumbersCollection_1 = require("./NumbersCollection");
+const numbersCollection = new NumbersCollection_1.NumbersCollection([10, 3, -5, 0]);
 const sorter = new Sorter_1.Sorter([10, 3, -5, 0]);
 sorter.sort();
 console.log(sorter.collection);
@@ -34,3 +36,4 @@ console.log(sorter.collection);
 // - S10-86:Add if  type guard with type string
 // - S10-89:Add import sort class
 // - s10-89:Add import number collection
+// - S10-89:cr8 new instance of number collection
