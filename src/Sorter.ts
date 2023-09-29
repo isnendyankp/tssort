@@ -1,7 +1,8 @@
 import { NumbersCollection } from './NumbersCollection';
 
 interface Sortable {
-
+  length: number;
+  
 }
 
 export class Sorter {
@@ -34,3 +35,4 @@ export class Sorter {
 // - S10-89:Add swap method after compare method
 // - S10-89:Add 2 elements for swap method (j, j+1)
 // - S10-89:cr8 interface for Sortable
+// - S10-89:Add length property for Sortable
