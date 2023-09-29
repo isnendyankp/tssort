@@ -3,7 +3,7 @@ import { NumbersCollection } from './NumbersCollection';
 interface Sortable {
   length: number;
   compare(leftIndex: number, rightIndex: number): boolean;
-  swap(): void;
+  swap(leftIndex: number, rightIndex: number): void;
 }
 
 export class Sorter {
@@ -40,3 +40,4 @@ export class Sorter {
 // - S10-89:Add compare method for Sortable
 // - S10-89:Add leftIndex & rightIndex for Sortable>compare
 // - S10-89:Add swap method with type void for Sortable>swap
+// - S10-89:Add leftIndex & rightIndex for Sortable>swap

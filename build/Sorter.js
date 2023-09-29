@@ -33,3 +33,4 @@ exports.Sorter = Sorter;
 // - S10-89:Add compare method for Sortable
 // - S10-89:Add leftIndex & rightIndex for Sortable>compare
 // - S10-89:Add swap method with type void for Sortable>swap
+// - S10-89:Add leftIndex & rightIndex for Sortable>swap
