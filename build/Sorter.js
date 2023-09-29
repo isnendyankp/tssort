@@ -30,3 +30,4 @@ exports.Sorter = Sorter;
 // - S10-89:Add 2 elements for swap method (j, j+1)
 // - S10-89:cr8 interface for Sortable
 // - S10-89:Add length property for Sortable
+// - S10-89:Add compare method for Sortable
