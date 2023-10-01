@@ -20,8 +20,6 @@ export class Sorter {
   }
 }
 
-
-
 // - S10-88:Cr8 Sorter.ts file & move all code sorter
 // - S10-88:export class sorter
 // - S10-88:remove all type annotations
