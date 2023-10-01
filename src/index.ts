@@ -1,7 +1,7 @@
 import { Sorter } from './Sorter';
 import { NumbersCollection } from './NumbersCollection';
 
-const numbersCollection = new NumbersCollection([10, 3, -5, 0]);
+const numbersCollection = new NumbersCollection([50, 3, -5, 0]);
 const sorter = new Sorter(numbersCollection);
 sorter.sort();
 console.log(numbersCollection.data);
@@ -38,3 +38,4 @@ console.log(numbersCollection.data);
 // - S10-89:cr8 new instance of number collection
 // - S10-89:Assign variable for new instance
 // - S10-89:log numbersCollection.data
+// - S10-90:change 100 to 50

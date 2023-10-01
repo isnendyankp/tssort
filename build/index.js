@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Sorter_1 = require("./Sorter");
 const NumbersCollection_1 = require("./NumbersCollection");
-const numbersCollection = new NumbersCollection_1.NumbersCollection([10, 3, -5, 0]);
+const numbersCollection = new NumbersCollection_1.NumbersCollection([50, 3, -5, 0]);
 const sorter = new Sorter_1.Sorter(numbersCollection);
 sorter.sort();
 console.log(numbersCollection.data);
@@ -39,3 +39,4 @@ console.log(numbersCollection.data);
 // - S10-89:cr8 new instance of number collection
 // - S10-89:Assign variable for new instance
 // - S10-89:log numbersCollection.data
+// - S10-90:change 100 to 50
