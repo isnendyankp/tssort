@@ -7,7 +7,7 @@ interface Sortable {
 }
 
 export class Sorter {
-  constructor(public collection: NumbersCollection) {}
+  constructor(public collection: Sortable) {}
 
   sort(): void {
     const { length } = this.collection;
@@ -41,3 +41,4 @@ export class Sorter {
 // - S10-89:Add leftIndex & rightIndex for Sortable>compare
 // - S10-89:Add swap method with type void for Sortable>swap
 // - S10-89:Add leftIndex & rightIndex for Sortable>swap
+// - S10-89:Refactor Sorter class with interface Sortable
