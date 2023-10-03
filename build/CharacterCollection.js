@@ -8,6 +8,9 @@ class CharacterCollection {
     get length() {
         return this.data.length;
     }
+    compare(leftIndex, rightIndex) {
+        return this.data[leftIndex] > this.data[rightIndex];
+    }
 }
 exports.CharacterCollection = CharacterCollection;
 // - Progress:
@@ -16,3 +19,4 @@ exports.CharacterCollection = CharacterCollection;
 // - S10-92:cr8 get length base
 // - S10-92:Add return type number to get length
 // - S10-92:Add return this.data.length
+// - S10-92:cr8 compare method base from NumbersCollection.ts
