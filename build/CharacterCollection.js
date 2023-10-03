@@ -6,6 +6,7 @@ class CharacterCollection {
         this.data = data;
     }
     get length() {
+        return this.data.length;
     }
 }
 exports.CharacterCollection = CharacterCollection;
@@ -14,3 +15,4 @@ exports.CharacterCollection = CharacterCollection;
 // - S10-92:cr8 constructor with prop data with type string
 // - S10-92:cr8 get length base
 // - S10-92:Add return type number to get length
+// - S10-92:Add return this.data.length
