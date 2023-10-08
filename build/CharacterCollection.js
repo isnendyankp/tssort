@@ -11,7 +11,6 @@ class CharacterCollection {
     compare(leftIndex, rightIndex) {
         return (this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase());
     }
-    swap() { }
 }
 exports.CharacterCollection = CharacterCollection;
 void {};
@@ -27,3 +26,4 @@ void {};
 // - S10-92:Fixing compare method
 // - S10-92:cr8 swap method base
 // - S10-92:Add return type void @swap method
+// - S10-92:Add 2 compare params for swap method
