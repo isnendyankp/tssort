@@ -6,9 +6,8 @@ export class CharacterCollection {
   }
 
   compare(leftIndex: number, rightIndex: number): boolean {
-    return this.data[leftIndex] > this.data[rightIndex];
+    return this.data[leftIndex].toLowerCase() >
   }
-
 }
 
 // - Progress:
@@ -18,3 +17,4 @@ export class CharacterCollection {
 // - S10-92:Add return type number to get length
 // - S10-92:Add return this.data.length
 // - S10-92:cr8 compare method base from NumbersCollection.ts
+// - S10-92:change return with adding .toLowerCase()
