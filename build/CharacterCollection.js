@@ -11,8 +11,10 @@ class CharacterCollection {
     compare(leftIndex, rightIndex) {
         return (this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase());
     }
+    swap() { }
 }
 exports.CharacterCollection = CharacterCollection;
+void {};
 // - Progress:
 // - S10-92:Cr8 CharacterCollection class
 // - S10-92:cr8 constructor with prop data with type string
@@ -24,3 +26,4 @@ exports.CharacterCollection = CharacterCollection;
 // - S10-92:Adding greater than with adding rightIndex for compare method
 // - S10-92:Fixing compare method
 // - S10-92:cr8 swap method base
+// - S10-92:Add return type void @swap method

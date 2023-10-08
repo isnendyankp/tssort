@@ -10,7 +10,9 @@ export class CharacterCollection {
       this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase()
     );
   }
-  swap();
+  swap() void {
+
+  };
 }
 
 // - Progress:
@@ -24,3 +26,4 @@ export class CharacterCollection {
 // - S10-92:Adding greater than with adding rightIndex for compare method
 // - S10-92:Fixing compare method
 // - S10-92:cr8 swap method base
+// - S10-92:Add return type void @swap method
