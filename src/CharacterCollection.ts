@@ -17,6 +17,8 @@ export class CharacterCollection {
     const leftHand = characters[leftIndex];
     // characters[leftIndex] into characters[rightIndex]
     characters[leftIndex] = characters[rightIndex];
+    //  restore leftHand into characters[rightIndex]
+    characters[rightIndex] = leftHand;
   };
 }
 
@@ -36,3 +38,4 @@ export class CharacterCollection {
 // - S10-92:cr8 characters for seperate string to array
 // - S10-92:cr8 leftHand for equal to characters[leftIndex]
 // - S10-92:swap characters[leftIndex] to characters[rightIndex]
+// - S10-92:restore leftHand to characters[rightIndex]
