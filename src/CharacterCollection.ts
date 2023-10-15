@@ -15,6 +15,8 @@ export class CharacterCollection {
     const characters = this.data.split('');
     // swap to characters left and right index
     const leftHand = characters[leftIndex];
+    // characters[leftIndex] into characters[rightIndex]
+    characters[leftIndex] = characters[rightIndex];
   };
 }
 
@@ -33,3 +35,4 @@ export class CharacterCollection {
 // - S10-92:Add 2 compare params for swap method
 // - S10-92:cr8 characters for seperate string to array
 // - S10-92:cr8 leftHand for equal to characters[leftIndex]
+// - S10-92:swap characters[leftIndex] to characters[rightIndex]
