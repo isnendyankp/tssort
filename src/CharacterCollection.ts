@@ -1,4 +1,4 @@
-export class CharacterCollection {
+export class CharactersCollection {
   constructor(public data: string) {}
 
   get length(): number {
@@ -10,7 +10,7 @@ export class CharacterCollection {
       this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase()
     );
   }
-  swap(leftIndex: number, rightIndex: number) void {
+  swap(leftIndex: number, rightIndex: number): void {
     // seperate strting to array
     const characters = this.data.split('');
     // swap to characters left and right index
@@ -22,7 +22,7 @@ export class CharacterCollection {
 
     // update this.data with this new string
     this.data = characters.join('');
-  };
+  }
 }
 
 // - Progress:

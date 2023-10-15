@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CharacterCollection = void 0;
-class CharacterCollection {
+exports.CharactersCollection = void 0;
+class CharactersCollection {
     constructor(data) {
         this.data = data;
     }
@@ -11,20 +11,20 @@ class CharacterCollection {
     compare(leftIndex, rightIndex) {
         return (this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase());
     }
+    swap(leftIndex, rightIndex) {
+        // seperate strting to array
+        const characters = this.data.split('');
+        // swap to characters left and right index
+        const leftHand = characters[leftIndex];
+        // characters[leftIndex] into characters[rightIndex]
+        characters[leftIndex] = characters[rightIndex];
+        //  restore leftHand into characters[rightIndex]
+        characters[rightIndex] = leftHand;
+        // update this.data with this new string
+        this.data = characters.join('');
+    }
 }
-exports.CharacterCollection = CharacterCollection;
-void {
-    // seperate strting to array
-    const: characters = this.data.split(''),
-    // swap to characters left and right index
-    const: leftHand = characters[leftIndex],
-    // characters[leftIndex] into characters[rightIndex]
-    characters, [leftIndex]:  = characters[rightIndex],
-    //  restore leftHand into characters[rightIndex]
-    characters, [rightIndex]:  = leftHand,
-    // update this.data with this new string
-    this: .data = characters.join('')
-};
+exports.CharactersCollection = CharactersCollection;
 // - Progress:
 // - S10-92:Cr8 CharacterCollection class
 // - S10-92:cr8 constructor with prop data with type string
