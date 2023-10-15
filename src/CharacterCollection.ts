@@ -13,6 +13,8 @@ export class CharacterCollection {
   swap(leftIndex: number, rightIndex: number) void {
     // seperate strting to array
     const characters = this.data.split('');
+    // swap to characters left and right index
+    const leftHand = characters[leftIndex];
   };
 }
 
@@ -30,3 +32,4 @@ export class CharacterCollection {
 // - S10-92:Add return type void @swap method
 // - S10-92:Add 2 compare params for swap method
 // - S10-92:cr8 characters for seperate string to array
+// - S10-92:cr8 leftHand for equal to characters[leftIndex]
