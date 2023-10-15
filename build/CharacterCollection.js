@@ -13,7 +13,10 @@ class CharacterCollection {
     }
 }
 exports.CharacterCollection = CharacterCollection;
-void {};
+void {
+    // seperate strting to array
+    const: characters = this.data.split('')
+};
 // - Progress:
 // - S10-92:Cr8 CharacterCollection class
 // - S10-92:cr8 constructor with prop data with type string
@@ -27,3 +30,4 @@ void {};
 // - S10-92:cr8 swap method base
 // - S10-92:Add return type void @swap method
 // - S10-92:Add 2 compare params for swap method
+// - S10-92:cr8 characters for seperate string to array
