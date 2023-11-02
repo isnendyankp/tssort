@@ -8,7 +8,9 @@ const CharactersCollection_1 = require("./CharactersCollection");
 // console.log(numbersCollection.data);
 const charactersCollection = new CharactersCollection_1.CharactersCollection('Xaayb');
 const sorter = new Sorter_1.Sorter(charactersCollection);
+sorter.sort();
 // progres:
 // - S10-92:import CharactersCollection
 // - S10-92:cr8 charactersCollection with new CharactersCollection('Xaayb')
 // - S10-92:cr8 sorter with new Sorter(charactersCollection)
+// - S10-92:call sorter.sort()
