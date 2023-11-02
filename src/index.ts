@@ -1,5 +1,6 @@
 import { Sorter } from './Sorter';
 import { NumbersCollection } from './NumbersCollection';
+import { CharactersCollection } from './CharactersCollection';
 
 const numbersCollection = new NumbersCollection([50, 3, -5, 0]);
 const sorter = new Sorter(numbersCollection);
@@ -39,3 +40,4 @@ console.log(numbersCollection.data);
 // - S10-89:Assign variable for new instance
 // - S10-89:log numbersCollection.data
 // - S10-90:change 100 to 50
+// - S10-92:import CharactersCollection
